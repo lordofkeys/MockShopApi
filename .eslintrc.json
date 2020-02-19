@@ -1,9 +1,12 @@
 {
-    "extends": "strongloop",
+    "extends": "airbnb-base",
+    "plugins": ["promise"],
     "parserOptions": {
         "ecmaVersion": 2017
     },
-
+    "rules":{
+        "linebreak-style": 0
+    },
     "env": {
         "es6": true,
         "browser": true,
